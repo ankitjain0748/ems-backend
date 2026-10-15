@@ -1,4 +1,4 @@
-const employeeService = require("../services/employee.service");
+const employeeService = require("./employee.service");
 
 const getAllEmployees = async (req, res) => {
     try {
